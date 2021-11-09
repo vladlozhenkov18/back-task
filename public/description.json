@@ -1,0 +1,8 @@
+{
+    "newsLinks": "//div[@class='js-news-feed-list']/a/@href",
+    "childs": [
+            "//div[contains(@class, 'article__header__title')]",
+            "//div[contains(@class, 'article__main-image__wrap')]/img/@src",
+            "//div[contains(@class, 'article__text')]"
+    ]
+}
